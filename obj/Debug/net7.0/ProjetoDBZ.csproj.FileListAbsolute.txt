@@ -33,3 +33,14 @@ c:\Users\marco\OneDrive\Documents\projeto-dotnet-api-db\ProjetoDBZ\obj\Debug\net
 c:\Users\marco\OneDrive\Documents\projeto-dotnet-api-db\ProjetoDBZ\obj\Debug\net7.0\ProjetoDBZ.pdb
 C:\Users\marco\OneDrive\Documents\projeto-dotnet-api-db\ProjetoDBZ\obj\Debug\net7.0\ProjetoDBZ.genruntimeconfig.cache
 C:\Users\marco\OneDrive\Documents\projeto-dotnet-api-db\ProjetoDBZ\obj\Debug\net7.0\ref\ProjetoDBZ.dll
+C:\Users\marco\OneDrive\Documents\projeto-dotnet-api-db\ProjetoDBZ\bin\Debug\net7.0\Humanizer.dll
+C:\Users\marco\OneDrive\Documents\projeto-dotnet-api-db\ProjetoDBZ\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\marco\OneDrive\Documents\projeto-dotnet-api-db\ProjetoDBZ\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\marco\OneDrive\Documents\projeto-dotnet-api-db\ProjetoDBZ\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\marco\OneDrive\Documents\projeto-dotnet-api-db\ProjetoDBZ\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\marco\OneDrive\Documents\projeto-dotnet-api-db\ProjetoDBZ\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\marco\OneDrive\Documents\projeto-dotnet-api-db\ProjetoDBZ\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\marco\OneDrive\Documents\projeto-dotnet-api-db\ProjetoDBZ\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\marco\OneDrive\Documents\projeto-dotnet-api-db\ProjetoDBZ\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\marco\OneDrive\Documents\projeto-dotnet-api-db\ProjetoDBZ\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\marco\OneDrive\Documents\projeto-dotnet-api-db\ProjetoDBZ\obj\Debug\net7.0\ProjetoDBZ.sourcelink.json
