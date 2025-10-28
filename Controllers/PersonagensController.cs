@@ -38,12 +38,51 @@ namespace ProjetoDBZ.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult>AddPersonagem(Personagem personagem)
+        public async Task<IActionResult> AddPersonagem([FromBody] Personagem personagem)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            
             _appDbContext.DBZ.Add(personagem);
             await _appDbContext.SaveChangesAsync();
 
-            return Ok(personagem);
+            return Created("Personagem adicionado com sucesso!", personagem);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdatePersonagem(int id, [FromBody] Personagem personagemAtualizado)
+        {
+            var personagemExistente = await _appDbContext.DBZ.FindAsync(id);
+
+            if (personagemExistente == null)
+            {
+                return NotFound("Personagem não encontrado!");
+            }
+
+            _appDbContext.Entry(personagemExistente).CurrentValues.SetValues(personagemAtualizado);
+
+            await _appDbContext.SaveChangesAsync();
+
+            return StatusCode(201, personagemExistente);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeletePersonagem(int id)
+        {
+            var personagem = await _appDbContext.DBZ.FindAsync(id);
+
+            if (personagem == null)
+            {
+                return NotFound("Personagem não encontrado!");
+            }
+
+            _appDbContext.DBZ.Remove(personagem);
+
+            await _appDbContext.SaveChangesAsync();
+
+            return Ok("Personagem " + personagem.Nome + " deletado com sucesso!");
         }
     }
 }
